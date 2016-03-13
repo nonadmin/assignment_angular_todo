@@ -1,0 +1,4 @@
+<td>{{ todo.text }}</td>
+<td>{{ todo.dueDate | date }}</td>
+<td><input type="checkbox" ng-model="todo.completed"></td>
+<td><button class="btn btn-danger btn-xs" ng-click="removeTodo(todo)">x</button></td>
